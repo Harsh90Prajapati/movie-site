@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!--------------navbar------------------->
+<h1 style="text-align: center;font-family: cursive; margin-bottom: 25px; color:whitesmoke;text-shadow:2px 2px 4px black;font-size: 50px;">The Moviezz.com</h1>
+<section class="navbar">
+  <div class="topnav" id="myTopnav">
+    <a href="intex.html"><h3>Moviezz.com</h3></a>
+    <a href="intex.html">HOME</a>
+    <a href="#news">TV SHOWS</a>
+    <a href="anime.html">ANIME</a>
+      <div class="dropdown">
+          <button class="dropbtn">MOVIES
+             <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+                <a href="hollywood.html">Hollywood</a>
+                <a href="bollywood .html">Bollywood</a>
+          </div>
+      </div> 
+      <div class="dropdown">
+          <button class="dropbtn">QUALITY
+             <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+               <a href="#">1080p</a>
+               <a href="#">720p</a>
+               <a href="#">480p</a>
+          </div>
+      </div> 
+  <a href="#">GENRE</a>
+  <a href="#about">ABOUT</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">search</button>
+      </form>
+    </div>
+</div>
+</section>
+<br>
+<!-----------------slideshow---------------------->
+<br>
+<section class="slideshow">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Hollywood/pic-3.jpg" style="width:100%"  height="550px">
+      <div class="text"><h2>Spider-Man: Far from Home</h2></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Hollywood/pic-1.jpg" style="width:100%" height="550px">
+      <div class="text"><h2> Avengers: Endgame</h2></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Hollywood/pic-2.jpg" style="width:100%" height="550px">
+      <div class="text"><h2> Jumanji: Welcome to the Jungle</h2></div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</section>
+<!------------------------movies------------------------>    
+<div class="small-containor">
+    <h2 class="tittle">MOVIES</h2>
+    <div class="row row-2">
+      <h2 style="color: #555; font-family: cursive;">Category</h2>
+      <select>
+          <option>Action</option>
+          <option>Adventure</option>
+          <option>Comedy</option>
+          <option>Thriller</option>
+          <option>18+Adult</option>
+      </select>
+    </div>
+</div>
+
+<section class="movie-bar">
+  <div class="row">
+    <div class="header">
+      <div class="col-4">
+         <a href="movie-detail-1.html"> <img src="Hollywood/product-6.jpg " height="340px">
+            <h4>The Avengers (2012)</h4>
+         </a>
+            <p>Download The Avengers (2012) <br> {Hindi-English} 480p [450MB] <br>|| 720p [1.1GB] || 1080p [2.3GB]</p>  
+      </div>
+   </div>
+   <div class="header">
+     <div class="col-4">
+       <a href="movie-detail-2.html"> <img src="Hollywood/product-2.jpg" height="340px">
+          <h4>Spider-Man: Far from Home</h4>
+       </a>
+         <p>Download Spider-Man: Far from Home (2019) <br> Dual Audio {Hindi-English} 480p [450MB] <br> || 720p [1.5GB] || 1080p [3.4GB]</p>
+     </div>
+   </div>
+   <div class="header">
+     <div class="col-4">
+       <a href="movie-detail-3.html"> <img src="Hollywood/product-1.jpeg " height="340px">
+          <h4>Avengers: Endgame (2019)</h4>
+       </a> 
+        <p>Download Avengers: Endgame (2019) <br> Dual Audio {Hindi-English} 480p [500MB] <br> 720p [1.7GB] || 1080p [4.3GB]</p>
+     </div>
+   </div>              
+   <div class="header">
+     <div class="col-4">
+       <a href="movie-detail-4.html"> <img src="Hollywood/product-4.jpg " height="340px">
+          <h4> Guardians of the Galaxy (2014)</h4>
+       </a>
+          <p>Download Guardians of the Galaxy (2014) <br> Dual Audio {Hindi-English} 480p [400MB] <br> || 720p [1.2GB] || 1080p [2.1GB]</p> 
+     </div>
+   </div>        
+   <div class="header">
+    <div class="col-4">
+      <a href="movie-detail-5.html"> <img src="Hollywood/product-5.jpg"  height="340px">
+         <h4>Guardians of the Galaxy Vol. 2 (2017) </h4>
+      </a>
+         <p>Download Guardians of the Galaxy Vol. 2 (2017) <br> Dual Audio {Hindi-English} <br> || 720p [1.1GB] || 1080p [4GB]</p> 
+    </div>
+   </div>
+   <div class="header">
+    <div class="col-4">
+      <a href="movie-detail-6.html"> <img src="Hollywood/product-7.jpg"  height="340px">
+         <h4> Iron Man 2 (2010) </h4>
+      </a>
+         <p>Download Iron Man 2 (2010) <br> {Hindi-English} BluRay 480p [500MB] <br> || 720p [950MB] || 1080p [1.7GB]</p> 
+    </div>
+  </div>
+   <div class="header">
+    <div class="col-4">
+      <a href="movie-detail-7.html"> <img src="Hollywood/product-8.jpg"  height="340px">
+         <h4> Captain Marvel (2019)</h4>
+      </a>
+         <p>Download Captain Marvel (2019) <br> {Hindi-English} Bluray 480p [400MB] <br> || 720p [1GB] || [3.7GB]</p> 
+    </div>
+   </div>        
+   <div class="header">
+    <div class="col-4">
+      <a href="movie-detail-8.html"> <img src="Hollywood/product-9.jpg"  height="340px">
+         <h4> Captain America: The Winter Soldier (2014)</h4>
+      </a>
+         <p>Download Captain America: The Winter Soldier (2014) <br> {Hindi-English} 480p [425MB] <br> || 720p [930MB]</p> 
+    </div>
+   </div>
+    <div class="page-btn">
+       <span>1</span>
+       <span>2</span>
+       <span>3</span>
+       <span>4</span>
+       <span>&#8594;</span>
+   </div>
+  
+  </div>
+
+</section>
+
+
+<!----------------------footer------------------------->
+<br>
+<div class="footer">
+  <div class="containor">
+      <div class="footer-col-1">
+          <h3>Download our App</h3>
+          <div class="app-logo">
+              <img src="play-store.png" >
+              <img src="app-store.png" >
+          </div>
+          
+      </div>
+      <div class="footer-col-2">
+       <h2 style="font-size: 30px;font-family: cursive; color: white;">The Moviezz</h2>
+      </div>
+      <div class="footer-col-3">
+        <h3>usefull links</h3>
+        <ul>
+            <a href=""><li>Coupons</li></a>
+            <a href=""><li>Blog Post</li></a>
+            <a href=""><li>Return Policy</li></a>
+            <a href=""><li>Join Affiliate</li></a>
+        </ul>
+    </div>
+    <div class="footer-col-4">
+        <h3>Follow US</h3>
+        <ul>
+           <a href=""><li>Facebook</li></a> 
+           <a href=""><li>Instagram</li></a>
+           <a href=""><li>Twitter</li></a>
+           <a href=""><li>YouTube</li></a>
+        </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+<!-------------------JS FOR TOGGLE------------------------->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!------------------------js for slideshow---------------------------------->
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</body>
+</html>
